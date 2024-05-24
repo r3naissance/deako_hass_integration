@@ -2,6 +2,10 @@
 
 Component to integrate with Deako using Deako's pydeako library
 
+Deako was so close to getting this pushed as an official integration: https://github.com/home-assistant/core/pull/102190
+
+This repo just takes those changes, applies a minor tweak, and now can be used as an "official" integration
+
 **This component will set up the following platforms.**
 
 Platform | Description
