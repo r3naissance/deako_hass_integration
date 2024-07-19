@@ -29,7 +29,7 @@ Find an IP address of a deako device that is on your wifi, and input that into t
 
 ## Reload Deako Automation to keep it consistent
 
-Setup this automation. Obviously change the `light.<name>` to the actual device name for each trigger. It checking to see if the state goes to `unavailable` or `unknown` for 2 minutes.
+Setup this automation. Obviously change the `light.<name>` to the actual device name for each trigger. It's checking to see if the state goes to `unavailable` or `unknown` for 2 minutes.
 The other trigger is every hour and 40 seconds (40 seconds is to avoid conflicts with time based automations). Deako will consistently lose connection and the integration becomes useless.
 
 ```
