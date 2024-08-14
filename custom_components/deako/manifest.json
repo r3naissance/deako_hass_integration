@@ -7,7 +7,7 @@
   "dependencies": ["zeroconf"],
   "config_flow": true,
   "codeowners": ["@sebirdman", "@balake", "@deakolights"],
-  "requirements": ["pydeako==0.3.2"],
+  "requirements": ["pydeako==0.4.0"],
   "zeroconf": ["_deako._tcp.local."],
   "version": "0.0.2"
 }
